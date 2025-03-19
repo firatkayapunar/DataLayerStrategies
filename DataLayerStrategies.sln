@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RepositoryPatternAfterDemo", "RepositoryPatternAfterDemo", "{6EC1E4D7-D75A-4A4A-B686-532EDA268C11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RepositoryPatternDemo", "RepositoryPatternDemo", "{F7847AC7-8ADB-4530-9054-5BC3B97DC10A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternAfterDemo.Entities", "RepositoryPatternAfterDemo.Entities\RepositoryPatternAfterDemo.Entities.csproj", "{EB83D21A-2D45-4996-8DA4-C234B799F15D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternAfterDemo.DataAccess", "RepositoryPatternAfterDemo.DataAccess\RepositoryPatternAfterDemo.DataAccess.csproj", "{B2F559CA-1CB8-4132-8EE9-70FE0881617A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternAfterDemo.Application", "RepositoryPatternAfterDemo.Application\RepositoryPatternAfterDemo.Application.csproj", "{01613ACE-3E39-4FE3-85A5-521A7CFDC6A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternAfterDemo.API", "RepositoryPatternAfterDemo.API\RepositoryPatternAfterDemo.API.csproj", "{02D9BE1D-5CC2-4D6A-8EC1-21BB2E214BB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternDemo.API", "RepositoryPatternDemo.API\RepositoryPatternDemo.API.csproj", "{001BC339-711A-4B8A-8E30-8D7B10A72F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternDemo.Application", "RepositoryPatternDemo.Application\RepositoryPatternDemo.Application.csproj", "{E5B2C692-F294-40F4-B90D-945AAF16EAFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternDemo.DataAccess", "RepositoryPatternDemo.DataAccess\RepositoryPatternDemo.DataAccess.csproj", "{67033941-53EA-4F73-A08E-AE00B2A7947B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternDemo.Entities", "RepositoryPatternDemo.Entities\RepositoryPatternDemo.Entities.csproj", "{B675213E-ECB2-466D-A6BB-4E852B7CEE82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB83D21A-2D45-4996-8DA4-C234B799F15D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB83D21A-2D45-4996-8DA4-C234B799F15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB83D21A-2D45-4996-8DA4-C234B799F15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB83D21A-2D45-4996-8DA4-C234B799F15D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F559CA-1CB8-4132-8EE9-70FE0881617A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F559CA-1CB8-4132-8EE9-70FE0881617A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F559CA-1CB8-4132-8EE9-70FE0881617A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F559CA-1CB8-4132-8EE9-70FE0881617A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01613ACE-3E39-4FE3-85A5-521A7CFDC6A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01613ACE-3E39-4FE3-85A5-521A7CFDC6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01613ACE-3E39-4FE3-85A5-521A7CFDC6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01613ACE-3E39-4FE3-85A5-521A7CFDC6A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D9BE1D-5CC2-4D6A-8EC1-21BB2E214BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D9BE1D-5CC2-4D6A-8EC1-21BB2E214BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D9BE1D-5CC2-4D6A-8EC1-21BB2E214BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D9BE1D-5CC2-4D6A-8EC1-21BB2E214BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{001BC339-711A-4B8A-8E30-8D7B10A72F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001BC339-711A-4B8A-8E30-8D7B10A72F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001BC339-711A-4B8A-8E30-8D7B10A72F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001BC339-711A-4B8A-8E30-8D7B10A72F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B2C692-F294-40F4-B90D-945AAF16EAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B2C692-F294-40F4-B90D-945AAF16EAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B2C692-F294-40F4-B90D-945AAF16EAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B2C692-F294-40F4-B90D-945AAF16EAFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67033941-53EA-4F73-A08E-AE00B2A7947B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67033941-53EA-4F73-A08E-AE00B2A7947B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67033941-53EA-4F73-A08E-AE00B2A7947B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67033941-53EA-4F73-A08E-AE00B2A7947B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B675213E-ECB2-466D-A6BB-4E852B7CEE82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B675213E-ECB2-466D-A6BB-4E852B7CEE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B675213E-ECB2-466D-A6BB-4E852B7CEE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B675213E-ECB2-466D-A6BB-4E852B7CEE82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB83D21A-2D45-4996-8DA4-C234B799F15D} = {6EC1E4D7-D75A-4A4A-B686-532EDA268C11}
+		{B2F559CA-1CB8-4132-8EE9-70FE0881617A} = {6EC1E4D7-D75A-4A4A-B686-532EDA268C11}
+		{01613ACE-3E39-4FE3-85A5-521A7CFDC6A5} = {6EC1E4D7-D75A-4A4A-B686-532EDA268C11}
+		{02D9BE1D-5CC2-4D6A-8EC1-21BB2E214BB9} = {6EC1E4D7-D75A-4A4A-B686-532EDA268C11}
+		{001BC339-711A-4B8A-8E30-8D7B10A72F4B} = {F7847AC7-8ADB-4530-9054-5BC3B97DC10A}
+		{E5B2C692-F294-40F4-B90D-945AAF16EAFE} = {F7847AC7-8ADB-4530-9054-5BC3B97DC10A}
+		{67033941-53EA-4F73-A08E-AE00B2A7947B} = {F7847AC7-8ADB-4530-9054-5BC3B97DC10A}
+		{B675213E-ECB2-466D-A6BB-4E852B7CEE82} = {F7847AC7-8ADB-4530-9054-5BC3B97DC10A}
+	EndGlobalSection
+EndGlobal
